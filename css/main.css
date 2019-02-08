@@ -1,0 +1,198 @@
+body{
+  background: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-group-item{
+  margin-bottom: 5px;
+  background: rgba(10, 206, 206, .7);
+  color: white;
+  border: none;
+}
+
+/*.list-group-item:first-of-type,
+.list-group-item:last-of-type{
+  border-radius: 0px;
+}*/
+
+.list-group-item.active{
+  background: rgba(12,12,76,.7);
+}
+
+.list-group-item:hover{
+  background: rgba(255,255,255,.7);
+  cursor: pointer;
+}
+
+.card{
+  max-height: calc(100vh - 40px);
+  height: 80vh;
+  overflow-y: scroll;
+  background: rgba(255,255,255,.9);
+}
+
+.card-img-top{
+  border: 2px solid rgba(216, 216, 216, 1);
+  width: 70%;
+  margin: 50px auto auto auto;
+  border-radius: 50%;
+}
+
+.card .card-title{
+  color: #333;
+  text-align: center;
+}
+
+.card .card-title span{
+  color: rgba(10, 206, 206, .7);
+}
+
+.card h4{
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.card .btn-primary {
+  background-color: rgba(10, 206, 206, .7);
+  border: none;
+}
+
+.social-network-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-network-wrapper .social-icon{
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.social-network-wrapper .social-icon.facebook{
+  background-image:url("../img/facebook-icon.png");
+}
+
+.social-network-wrapper .social-icon.twitter{
+  background-image:url("../img/twitter-icon.png");
+}
+
+.social-network-wrapper .social-icon.linkedin{
+  background-image:url("../img/linkedin-icon.png");
+}
+
+.social-network-wrapper .social-icon.instagram{
+  background-image:url("../img/instagram-icon.png");
+}
+
+.social-network-wrapper .social-icon:not(:first-of-type){
+  margin-left: 5px;
+}
+
+.col.seccion-about{
+  height: 80vh;
+  overflow-y: scroll;
+  background: rgba(255,255,255,.9);
+  border-radius: 1%;
+  padding:20px 50px 20px 50px;
+}
+
+.col.seccion-about hr{
+  height: 2px;
+  background-color: #aebcbd;
+  margin-top: 0%;
+}
+
+div.btn-primary{
+  background: rgba(71, 225, 239, .8);
+  border: none;
+}
+.columns-2{
+  width: 48%;
+  float: left;
+  margin-right: 5px;
+}
+.section-header{
+  background-size: cover;
+  height: 40px;
+}
+
+.section-header.icon{
+  background-image: url("../img/education-icon.png");
+  width: 40px;
+  height: 40px;
+  margin:2px;
+}
+
+.section-header.education{
+  display: flex;  
+  color: rgba(84, 197, 197, 1);
+  font: 190% bold;
+  border-left-style:solid;
+
+}
+
+.section-header.education span{
+  margin: 5px;
+  margin-left:0px;
+}
+
+.content-wrapper{
+  border:solid thick rgba(216, 216, 216, .7);
+  margin-top: 20px;
+}
+
+.content-title{
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.content-subtitle{
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  text-align:justify;
+  margin:5px;
+}
+
+.content-text{
+  padding:0px 15px 0px 15px;
+  text-align: justify;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*Inicio de Formnulario*/
+.formulario{
+  background-color: rgba(255,255,255,.9);
+  margin: 20px;
+  padding: 15px;
+  border-radius: 2%;
+}
+
+#submit-button{
+  margin: 0px 5px 5px 40px;
+}
